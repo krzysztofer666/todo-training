@@ -120,6 +120,9 @@
               "devServerTarget": "todo-training:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
